@@ -336,3 +336,6 @@ workflows:
       - deployTimesheets:
           requires:
             - build
+      - deployExpenseMgmt:
+          requires:
+            - build
