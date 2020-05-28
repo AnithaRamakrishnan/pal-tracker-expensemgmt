@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+    <PackageReference Include="Steeltoe.CircuitBreaker.Hystrix.MetricsEventsCore" Version="2.4.3" />
+    <PackageReference Include="Steeltoe.CircuitBreaker.HystrixCore" Version="2.4.3" />
+    <PackageReference Include="Steeltoe.CloudFoundry.Connector.EFCore" Version="2.4.3" />
+  </ItemGroup>
+
+</Project>

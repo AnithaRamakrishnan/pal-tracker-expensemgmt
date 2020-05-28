@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+    <PackageReference Include="Steeltoe.CloudFoundry.Connector.EFCore" Version="2.4.3" />
+    <PackageReference Include="Steeltoe.Common.Hosting" Version="2.4.3" />
+    <PackageReference Include="Steeltoe.Discovery.ClientCore" Version="2.4.3" />
+    <PackageReference Include="Steeltoe.Extensions.Configuration.CloudFoundryCore" Version="2.4.3" />
+    <PackageReference Include="Steeltoe.Extensions.Configuration.ConfigServerCore" Version="2.4.3" />
+    <PackageReference Include="Steeltoe.Management.CloudFoundryCore" Version="2.4.3" />
+    <PackageReference Include="Steeltoe.Security.Authentication.CloudFoundryCore" Version="2.4.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Components\DefaultRoute\DefaultRoute.csproj" />
+    <ProjectReference Include="..\..\Components\Expense\Expense.csproj" />
+  </ItemGroup>
+
+</Project>
