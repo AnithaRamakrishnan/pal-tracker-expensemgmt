@@ -315,7 +315,7 @@ jobs:
             cf api $CF_API
             cf auth "$CF_USERNAME" "$CF_PASSWORD"
             cf target -o "$CF_ORG" -s "$CF_SPACE"
-            cf push -f manifest-timesheets.yml
+            cf push -f manifest-expense.yml
 
             bash ./migrate-databases.sh tracker-expense .. tracker-expense-database flyway-migration-key /tmp/extracted-archive/migrations
 
